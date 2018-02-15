@@ -1,0 +1,24 @@
+﻿<Window x:Class="HostingAxInWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HostingAxInWpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700
+        " Width="525" Loaded="Window_Loaded">
+    <StackPanel Name="panel1">
+        <Grid Name="grid1">
+            <WindowsFormsHost Height="233" VerticalAlignment="Top" Width="503" Name="WFH1">
+                
+            </WindowsFormsHost> 
+        </Grid>
+        <Grid Name="grid2">
+            <WindowsFormsHost Height="233" VerticalAlignment="Top" Width="503" Name="WFH2">
+
+            </WindowsFormsHost>
+        </Grid>
+        <Button Content="Open and Play" Click="Button_Click"/>
+    </StackPanel>
+ 
+</Window>
